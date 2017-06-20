@@ -1,0 +1,26 @@
+{
+  "name": "street-parking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "passwds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveraaen/street-parking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveraaen/street-parking/issues"
+  },
+  "homepage": "https://github.com/steveraaen/street-parking#readme",
+  "dependencies": {
+    "dbf-parser": "0.0.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.7"
+  }
+}
