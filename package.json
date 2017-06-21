@@ -21,6 +21,7 @@
   "dependencies": {
     "dbf-parser": "0.0.1",
     "express": "^4.15.3",
-    "mongoose": "^4.10.7"
+    "mongoose": "^4.10.7",
+    "shapefile": "^0.6.2"
   }
 }

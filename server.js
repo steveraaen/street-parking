@@ -3,11 +3,12 @@ var mongoose = require("mongoose");
 var pwds = require("./passwds");
 /*var parser = require("./controllers/dbfparser.js");*/
 var getSign = require("./controllers/getSigns.js");
+var gsigns = require("./controllers/shpmongo.js");
 
 
 
 var app = express();
-
+console.log(JSON.stringify(gsigns))
 mongoose.connect(pwds.mong);
 var db = mongoose.connection;
 
@@ -18,7 +19,7 @@ db.on("error", function(error) {
 db.once("open", function() {
     console.log("Mongoose connection successful.");
     /*parser.parse();*/
-    getSign()
+    /*getSign()*/
 
     app.listen(3000, function(req, res) {
         console.log('connected on 3000')

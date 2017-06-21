@@ -1,4 +1,5 @@
 var Parser = require('dbf-parser');
+var shp2json = require('shapefile')
 var Sign = require("../models/Signs.js");
 	
     var parser = new Parser('./Parking_Regulation_Shapefile.dbf');
